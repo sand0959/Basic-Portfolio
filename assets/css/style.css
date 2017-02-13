@@ -1,0 +1,114 @@
+body {
+  width: 960px;
+    background-image: url("../images/retina_wood.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+img {
+  image-orientation: from-image;
+}
+
+ header {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  border-color: #cccccc;
+  background-color: white;
+  }
+  header h1 {
+    text-align: center;
+    color: white;
+  }
+  .name {
+    width: 200px;
+    height: 60px;
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    margin-left: 10%;
+
+}
+
+#list1 {
+    position: relative;
+    left: 500px;
+  }  
+  
+}   
+ nav {
+clear: both;
+float:right;
+}
+
+nav ul { 
+margin:0;
+display:inline;
+padding:0 0 0 15px;
+}
+
+nav ul li {
+color:grey;
+display:inline-block;
+list-style:none;
+padding:5px 15px;
+}
+
+h2 {
+  color: #4aaaa5;
+  border-bottom:3px solid grey;
+  width:100%;
+}
+
+.bio {
+float: left;
+width: 450px;
+margin: 42px 92px 42px 92px;
+background-color: white;
+border-color: #dddddd;
+position: relative;
+bottom: -55px;
+}
+
+#bio-image {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 150px;
+  display: inline;
+  padding: 15px;
+}
+
+.sidebar
+{
+  float: right;
+  width: 270px;
+  margin: 0px;
+  background: white;
+  text-align: center;
+  position: relative;
+  bottom: -100px;
+  padding: 20px white;
+}
+
+
+h3 {
+  color: #4aaaa5;
+}
+
+footer {
+  clear: both;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-color: #4aaaa5;
+  background-color: grey;
+  text-align: center;
+  position: absolute;
+}
