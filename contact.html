@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>Contact</title>
+    <!--link rel="stylesheet" type="text/css" href="assets/css/reset.css"-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -16,18 +16,23 @@
                     <h1>Ted Sandridge</h1>
                 </div>
                 <ul id="list1">
-                    <a href="index.html">
-                        <li>About</li>
-                    </a>
-                    <a href="portfolio.html">
-                        <li>Portfolio</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>Contact</li>
-                    </a>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <form>
+            <h2>Contact</h2>
+
+            <label>Name</label>
+            <input name="name" placeholder="John Smith">
+            <label>Email</label>
+            <input name="email" type="email" placeholder="example@gmail.com">
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <input id="submit" name="submit" type="submit" value="Submit">
+        </form>
         <div class="sidebar">
             <h2>Connect with Me</h2>
             <nav>
@@ -40,9 +45,6 @@
             </nav>
         </div>
     </section>
-    <div class="contact1">
-        <h2>Contact</h2>
-    </div>
     <footer>
         <div id="copywrapper">
             <div>Copyright &copy; 2017 Ted Sandridge</div>
